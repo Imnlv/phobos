@@ -104,7 +104,7 @@ body{
     color: #1ABD34;
     display: block;
     text-align: center;
-    font-family: 'PP Telegraf';
+    font-family: 'PP Telegraf Regular';
     font-weight: 400;
     font-size: 1.5vw;
     margin-top: 2vw;
@@ -116,19 +116,24 @@ body{
     text-align: center;
 }
 
-h1 {
+h1, h3 {
     color: #1ABD34;
     text-transform: uppercase;
     font-size: 10vw;
-    font-family: 'PP Telegraf';
+    font-family: 'PP Telegraf Ultra';
     font-weight: 800;
+}
+
+h3 {
+    font-size: 4vw;
+    text-align: center;
 }
 
 nav a {
     color: white;
     font-size: 1.2vw;
     padding-left: 6.4vw;
-    font-family: 'TT Commons';
+    font-family: 'TT Commons Medium';
     font-weight: 500;
 }
 
@@ -149,14 +154,14 @@ nav {
 h2 {
     color: #ffffff;
     font-size: 2.4vw;
-    font-family: 'PP Telegraf';
+    font-family: 'PP Telegraf Regular';
     font-weight: 400;
     margin-top: 1vw;
 }
 
 li {
     color: #ffffff;
-    font-family: 'TT Commons';
+    font-family: 'TT Commons Medium';
     font-weight: 500;
     font-size: 1vw;
     line-height: 138.5%;
@@ -189,4 +194,13 @@ ul {
 
 .al2 {
     margin-left: 10.9vw;
+}
+
+.forma {
+    margin-top: 100px;
+    margin-left: 42vw;
+    width: 656px;
+    height: 695px;
+    border: 0.2vw solid #1ABD34;
+    border-radius: 2%;
 }

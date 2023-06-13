@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'PP Telegraf';
+  src: url('pp-telegraf.eot');
+  src: local('PP Telegraf Regular'), local('PP Telegraf-Regular'),
+      url('pp-telegraf.eot?#iefix') format('embedded-opentype'),
+      url('pp-telegraf.woff2') format('woff2'),
+      url('pp-telegraf.woff') format('woff'),
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PP Telegraf';
+  src: url('pp-telegraf-ultra.eot');
+  src: local('PP Telegraf Ultra Extra Bold'), local('PP Telegraf-Ultra-Extra-Bold'),
+      url('pp-telegraf-ultra.eot?#iefix') format('embedded-opentype'),
+      url('pp-telegraf-ultra.woff2') format('woff2'),
+      url('pp-telegraf-ultra.woff') format('woff'),
+  font-weight: 800;
+  font-style: normal;
+}

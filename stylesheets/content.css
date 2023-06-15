@@ -104,23 +104,18 @@ body{
     color: #1ABD34;
     display: block;
     text-align: center;
-    font-family: 'PP Telegraf Regular';
+    font-family: 'pp-telegraf';
     font-weight: 400;
     font-size: 1.5vw;
     margin-top: 2vw;
 }
 
-.social_media {
-    margin-top: 2vw;
-    display: block;
-    text-align: center;
-}
 
 h1, h3 {
     color: #1ABD34;
     text-transform: uppercase;
     font-size: 10vw;
-    font-family: 'PP Telegraf Ultra';
+    font-family: 'pp-telegraf-ultra';
     font-weight: 800;
 }
 
@@ -141,20 +136,10 @@ nav {
     margin-top: 0.4vw;
 }
 
-.soc_link {
-    margin-left: 24.3vw;
-}
-
-.contact {
-    width: 70vw;
-    margin-top: 5.5vw;
-    border: 0.1vw solid #1ABD34;
-}
-
 h2 {
     color: #ffffff;
     font-size: 2.4vw;
-    font-family: 'PP Telegraf Regular';
+    font-family: 'pp-telegraf';
     font-weight: 400;
     margin-top: 1vw;
 }
@@ -168,39 +153,3 @@ li {
     padding-bottom: 0.8vw;
 }
 
-
-.place {
-    display: flex;
-    flex-direction: row;
-    margin-left: 15vw;
-}
-
-.ul_1{
-    margin-left: 3.5vw;
-}
-
-.ul_2{
-    margin-left: 10.5vw;
-}
-
-ul {
-    margin-top: 1.7vw;
-}
-
-
-.al1 {
-    margin-left: 4.6vw;
-}
-
-.al2 {
-    margin-left: 10.9vw;
-}
-
-.forma {
-    margin-top: 100px;
-    margin-left: 42vw;
-    width: 656px;
-    height: 695px;
-    border: 0.2vw solid #1ABD34;
-    border-radius: 2%;
-}

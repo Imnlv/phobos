@@ -1,0 +1,52 @@
+.social_media {
+    margin-top: 2vw;
+    display: block;
+    text-align: center;
+}
+
+.soc_link {
+    margin-left: 24.3vw;
+}
+
+
+.contact {
+    width: 70vw;
+    margin-top: 5.5vw;
+    border: 0.1vw solid #1ABD34;
+}
+
+.place {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15vw;
+}
+
+.ul_1{
+    margin-left: 3.5vw;
+}
+
+.ul_2{
+    margin-left: 10.5vw;
+}
+
+ul {
+    margin-top: 1.7vw;
+}
+
+
+.al1 {
+    margin-left: 4.6vw;
+}
+
+.al2 {
+    margin-left: 10.9vw;
+}
+
+.forma {
+    margin-top: 7vw;
+    margin-left: 42vw;
+    width: 42.8vw;
+    height: 46vw;
+    border: 0.2vw solid #1ABD34;
+    border-radius: 2%;
+}

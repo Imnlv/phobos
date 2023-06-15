@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'TT Commons Light Italic';
-    src: url('../fonts/TTCommons/TTCommons-LightItalic.eot');
+    src: url('../fonts/TTCommons/TTCommons-LightItalic.ttf');
     src: local('TT Commons Light Italic'), local('TTCommons-LightItalic'),
         url('TTCommons-LightItalic.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-LightItalic.woff2') format('woff2'),
@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'TT Commons Black';
-    src: url('../fonts/TTCommons/TTCommons-Black.eot');
+    src: url('../fonts/TTCommons/TTCommons-Black.ttf');
     src: local('TT Commons Black'), local('TTCommons-Black'),
         url('TTCommons-Black.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-Black.woff2') format('woff2'),
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'TT Commons Bold';
-    src: url('../fonts/TTCommons/TTCommons-Bold.eot');
+    src: url('../fonts/TTCommons/TTCommons-Bold.ttf');
     src: local('TT Commons Bold'), local('TTCommons-Bold'),
         url('TTCommons-Bold.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-Bold.woff2') format('woff2'),
@@ -36,7 +36,7 @@
 
 @font-face {
     font-family: 'TT Commons Demi Bold Italic';
-    src: url('../fonts/TTCommons/TTCommons-DemiBoldItalic.eot');
+    src: url('../fonts/TTCommons/TTCommons-DemiBoldItalic.ttf');
     src: local('TT Commons DemiBold Italic'), local('TTCommons-DemiBoldItalic'),
         url('TTCommons-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-DemiBoldItalic.woff2') format('woff2'),
@@ -48,7 +48,7 @@
 
 @font-face {
     font-family: 'TT Commons Bold Italic';
-    src: url('../fonts/TTCommons/TTCommons-BoldItalic.eot');
+    src: url('../fonts/TTCommons/TTCommons-BoldItalic.ttf');
     src: local('TT Commons Bold Italic'), local('TTCommons-BoldItalic'),
         url('TTCommons-BoldItalic.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-BoldItalic.woff2') format('woff2'),
@@ -60,7 +60,7 @@
 
 @font-face {
     font-family: 'TT Commons Regular';
-    src: url('../fonts/TTCommons/TTCommons-Regular.eot');
+    src: url('../fonts/TTCommons/TTCommons-Regular.ttf');
     src: local('TT Commons Regular'), local('TTCommons-Regular'),
         url('TTCommons-Regular.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-Regular.woff2') format('woff2'),
@@ -72,7 +72,7 @@
 
 @font-face {
     font-family: 'TT Commons Extra Bold';
-    src: url('../fonts/TTCommons/TTCommons-ExtraBold.eot');
+    src: url('../fonts/TTCommons/TTCommons-ExtraBold.ttf');
     src: local('TT Commons ExtraBold'), local('TTCommons-ExtraBold'),
         url('TTCommons-ExtraBold.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-ExtraBold.woff2') format('woff2'),
@@ -84,7 +84,7 @@
 
 @font-face {
     font-family: 'TT Commons Italic';
-    src: url('../fonts/TTCommons/TTCommons-Italic.eot');
+    src: url('../fonts/TTCommons/TTCommons-Italic.ttf');
     src: local('TT Commons Italic'), local('TTCommons-Italic'),
         url('TTCommons-Italic.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-Italic.woff2') format('woff2'),
@@ -96,7 +96,7 @@
 
 @font-face {
     font-family: 'TT Commons Extra Light';
-    src: url('../fonts/TTCommons/TTCommons-ExtraLight.eot');
+    src: url('../fonts/TTCommons/TTCommons-ExtraLight.ttf');
     src: local('TT Commons ExtraLight'), local('TTCommons-ExtraLight'),
         url('TTCommons-ExtraLight.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-ExtraLight.woff2') format('woff2'),
@@ -108,7 +108,7 @@
 
 @font-face {
     font-family: 'TT Commons Medium Italic';
-    src: url('../fonts/TTCommons/TTCommons-MediumItalic.eot');
+    src: url('../fonts/TTCommons/TTCommons-MediumItalic.ttf');
     src: local('TT Commons Medium Italic'), local('TTCommons-MediumItalic'),
         url('TTCommons-MediumItalic.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-MediumItalic.woff2') format('woff2'),
@@ -120,7 +120,7 @@
 
 @font-face {
     font-family: 'TT Commons Thin';
-    src: url('../fonts/TTCommons/TTCommons-Thin.eot');
+    src: url('../fonts/TTCommons/TTCommons-Thin.ttf');
     src: local('TT Commons Thin'), local('TTCommons-Thin'),
         url('TTCommons-Thin.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-Thin.woff2') format('woff2'),
@@ -132,7 +132,7 @@
 
 @font-face {
     font-family: 'TT Commons Extra Light Italic';
-    src: url('../fonts/TTCommons/TTCommons-ExtraLightItalic.eot');
+    src: url('../fonts/TTCommons/TTCommons-ExtraLightItalic.ttf');
     src: local('TT Commons ExtraLight Italic'), local('TTCommons-ExtraLightItalic'),
         url('TTCommons-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-ExtraLightItalic.woff2') format('woff2'),
@@ -144,7 +144,7 @@
 
 @font-face {
     font-family: 'TT Commons Extra Bold Italic';
-    src: url('../fonts/TTCommons/TTCommons-ExtraBoldItalic.eot');
+    src: url('../fonts/TTCommons/TTCommons-ExtraBoldItalic.ttf');
     src: local('TT Commons ExtraBold Italic'), local('TTCommons-ExtraBoldItalic'),
         url('TTCommons-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-ExtraBoldItalic.woff2') format('woff2'),
@@ -156,7 +156,7 @@
 
 @font-face {
     font-family: 'TT Commons Medium';
-    src: url('../fonts/TTCommons/TTCommons-Medium.eot');
+    src: url('../fonts/TTCommons/TTCommons-Medium.ttf');
     src: local('TT Commons Medium'), local('TTCommons-Medium'),
         url('TTCommons-Medium.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-Medium.woff2') format('woff2'),
@@ -168,7 +168,7 @@
 
 @font-face {
     font-family: 'TT Commons Black Italic';
-    src: url('../fonts/TTCommons/TTCommons-BlackItalic.eot');
+    src: url('../fonts/TTCommons/TTCommons-BlackItalic.ttf';
     src: local('TT Commons Black Italic'), local('TTCommons-BlackItalic'),
         url('TTCommons-BlackItalic.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-BlackItalic.woff2') format('woff2'),
@@ -180,7 +180,7 @@
 
 @font-face {
     font-family: 'TT Commons Light';
-    src: url('../fonts/TTCommons/TTCommons-Light.eot');
+    src: url('../fonts/TTCommons/TTCommons-Light.ttf';
     src: local('TT Commons Light'), local('TTCommons-Light'),
         url('TTCommons-Light.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-Light.woff2') format('woff2'),
@@ -192,7 +192,7 @@
 
 @font-face {
     font-family: 'TT Commons Demi Bold';
-    src: url('../fonts/TTCommons/TTCommons-DemiBold.eot');
+    src: url('../fonts/TTCommons/TTCommons-DemiBold.ttf');
     src: local('TT Commons DemiBold'), local('TTCommons-DemiBold'),
         url('TTCommons-DemiBold.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-DemiBold.woff2') format('woff2'),
@@ -204,7 +204,7 @@
 
 @font-face {
     font-family: 'TT Commons Thin Italic';
-    src: url('../fonts/TTCommons/TTCommons-ThinItalic.eot');
+    src: url('../fonts/TTCommons/TTCommons-ThinItalic.ttf');
     src: local('TT Commons Thin Italic'), local('TTCommons-ThinItalic'),
         url('TTCommons-ThinItalic.eot?#iefix') format('embedded-opentype'),
         url('TTCommons-ThinItalic.woff2') format('woff2'),

@@ -4,10 +4,21 @@
     text-align: center;
 }
 
+nav a {
+    color: white;
+    font-size: 1.2vw;
+    padding-left: 6.4vw;
+    font-family: 'TTCommons-Medium';
+    font-weight: 500;
+}
+
+nav {
+    margin-top: 0.4vw;
+}
+
 .soc_link {
     margin-left: 24.3vw;
 }
-
 
 .contact {
     width: 70vw;
@@ -46,7 +57,146 @@ ul {
     margin-top: 7vw;
     margin-left: 42vw;
     width: 42.8vw;
-    height: 46vw;
+    height: auto;
     border: 0.2vw solid #1ABD34;
     border-radius: 2%;
+}
+
+.line {
+    transform: translate(0,120%);
+    opacity: 0;
+    transition: 0.8s ease 0s;
+}
+
+.line._active {
+    transform: translate(0);
+    opacity: 1;
+    transition: 0.8s ease 0.4s;
+}
+
+h3 {
+    color: #1ABD34;
+    text-transform: uppercase;
+    font-size: 4vw;
+    font-family: 'pp-telegraf-ultra';
+    font-weight: 800;
+    text-align: center;
+    margin-top: 6vw;
+}
+
+input {
+    outline: none;
+    background-color: transparent;
+    appearance: none;
+}
+
+input:active, input:hover, input:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.formhr {
+    width: 25vw;
+    border: 0.1vw solid #1ABD34;
+}
+
+p {
+    margin-top: 4vw;
+    margin-bottom: 0.3vw;
+}
+
+p, input, h5, .info, #phobosline {
+    margin-left: 8.5vw;
+}
+
+button {
+    width: 25vw;
+    height: 3.5vw;
+    border: 0.2vw solid #1ABD34;
+    background-color: transparent;
+    border-radius: 0.5vw;
+    display: block;
+    margin: 5.2vw auto;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: #1ABD34;
+    border: 0vw solid #1ABD34;
+    transform: scale(1.01);
+} 
+
+h4 {
+    color: #ffffff;
+    font-family: 'TTCommons-Medium';
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255) 0.5;
+    font-family: 'TTCommons-Medium';
+    font-weight: 500;
+    font-size: 1vw;
+    outline: none;
+    appearance: none;
+
+}
+
+.lineabout {
+    margin-top: -7vw;
+}
+
+.lineabout {
+    transform: translate(0,120%);
+    opacity: 0;
+    transition: 0.8s ease 0s;
+}
+
+.lineabout._active {
+    transform: translate(0);
+    opacity: 1;
+    transition: 0.8s ease 1s;
+}
+
+.info {
+    font-family: 'TTCommons-Regular';
+    font-weight: normal;
+    line-height: 138.5%;
+    margin-top: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+h5 {
+    font-family: 'TTCommons-Medium';
+    font-weight: 500;
+    font-size: 1.5vw;
+    color: #ffffff;
+}
+
+#phobosline {
+    font-family: 'pp-telegraf';
+    font-weight: 400;
+    font-size: 2.3vw;
+    color: #1ABD34;
+    margin-bottom: 2.5vw;
+}
+   
+.colortext {
+    color: #1ABD34;
+}
+
+
+._anim_show {
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.1s;
+}
+
+._anim_show._active,
+._active ._anim_show {
+    transform: translate(0, 0);
+    opacity: 1;
 }

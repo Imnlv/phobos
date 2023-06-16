@@ -63,7 +63,7 @@ ul {
 }
 
 .line {
-    transform: translate(0,120%);
+    transform: translate(120%,0);
     opacity: 0;
     transition: 0.8s ease 0s;
 }
@@ -109,7 +109,12 @@ p, input, h5, .info, #phobosline {
     margin-left: 8.5vw;
 }
 
-button {
+.ripple-button {
+    place-items: center;
+    position: relative;
+    isolation: isolate;
+    appearance: none;
+    cursor: pointer;
     width: 25vw;
     height: 3.5vw;
     border: 0.2vw solid #1ABD34;
@@ -120,13 +125,45 @@ button {
     cursor: pointer;
     white-space: nowrap;
     transition: all 1s;
+    overflow: hidden;
 }
+  
+.ripple-button::before {
+    content: "";
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 750ms;
+    z-index: -1;
+    width: 150%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: #1ABD34;
+    opacity: 0.5;
+}
+  
+.pulse::before {
+    animation: pulse 500ms;
+}
+  
+@keyframes pulse {
+    0% {
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0;
+    }
+}
+  
 
-button:hover {
+/* button:hover {
     background-color: #1ABD34;
     border: 0vw solid #1ABD34;
     transform: scale(1.01);
-} 
+}  */
 
 h4 {
     color: #ffffff;
@@ -150,7 +187,7 @@ input::placeholder {
 }
 
 .lineabout {
-    transform: translate(0,120%);
+    transform: translate(-120%, 0);
     opacity: 0;
     transition: 0.8s ease 0s;
 }

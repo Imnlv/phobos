@@ -1,0 +1,39 @@
+
+
+
+.accessories {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.accessoriesmerch {
+    margin-left: 3vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+div img {
+    margin-left: 2vw;
+    width: 19vw;
+    height: auto;
+}
+
+h3 {
+    font-family: 'TTCommons-Medium';
+    font-weight: 500;
+    font-size: 24vw;
+    margin-left: -7.5vw;
+    margin-bottom: -3vw;
+    color: #ffffff;
+}
+
+h6 {
+    color: #1ABD34;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3vw;
+}

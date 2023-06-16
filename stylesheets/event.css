@@ -1,0 +1,146 @@
+.event {
+    text-align: center;
+    margin-top: 6.5vw;
+    font-family: 'TTCommons-DemiBold';
+    font-weight: 600;
+    font-size: 2.6vw;
+    color: #1ABD34;
+}
+
+.event {
+    transform: translate(0,120%);
+    opacity: 0;
+    transition: 0.8s ease 0s;
+}
+
+.event._active {
+    transform: translate(0);
+    opacity: 1;
+    transition: 0.8s ease 0s;
+}
+
+.event_1 {
+    margin-top: 4vw;
+    text-align: center;
+}
+
+.imgevent1 {
+    width: 70vw;
+    height: auto;
+    transition: 1s;
+}
+
+.data {
+    color: #1ABD34;
+    font-size: 1.5vw;
+}
+
+.eventname, p {
+    margin-left: 15vw;
+}
+
+
+p {
+    font-family: 'TTCommons-Regular';
+    font-size: 1.2vw;
+    line-height: 151.5%;
+    padding-bottom: 1.8vw;
+    text-align: left;
+}
+
+.more {
+    display: block;
+    width: 3.3vw;
+    height: 3.3vw;
+    border: 0.13vw solid #1ABD34;
+    border-radius: 50%;
+}
+
+#minus {
+    margin-top: -0.3vw;
+}
+
+button img {
+    margin-top: 0.3vw;
+    width: 1vw;
+    height: auto;
+}
+
+button {
+    background: transparent;
+    margin-left: 15vw;
+    margin-bottom: 144px;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 1.7vw;
+}
+
+
+.event_2, .event_3{
+    display: flex;
+    justify-content: center;
+}
+
+.imgevent2_1 {
+    margin-left: -0.4vw;
+    width: 39vw;
+    height: auto;
+    transition: 1s;
+}
+
+.imgevent2_2 {
+    margin-left: 2vw;
+    margin-right: -1vw;
+    width: 28.4vw;
+    height: auto;
+    transition: 1s;
+}
+
+.name2, .data2, .p2, .btn2 {
+    margin-left: 2vw;
+}
+
+.imgevent1:hover, .imgevent2_1:hover, .imgevent2_2:hover, .imgevent3_2:hover, .imgevent3_3:hover {
+    transform: scale(1.02);
+}
+
+
+._anim_show {
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.1s;
+}
+
+._anim_show._active,
+._active ._anim_show {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.btn3 {
+    margin-left: 40vw;
+    margin-bottom: 0;
+}
+
+.name3, .data3, .p3 {
+    text-align: right;
+}
+
+
+.imgevent3_3 {
+    margin-left: 4.1vw;
+    width: 39vw;
+    height: auto;
+    transition: 1s;
+}
+
+.imgevent3_2 {
+    margin-left: 2vw;
+    margin-right: 3vw;
+    width: 28.4vw;
+    height: auto;
+    transition: 1s;
+}
+

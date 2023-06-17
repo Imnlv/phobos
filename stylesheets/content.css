@@ -8,7 +8,7 @@ html::-webkit-scrollbar {
 
 body{
     background-color: black;
-    overflow: scroll;
+    overflow-y: scroll;
 }
   
 .menu-btn {
@@ -202,4 +202,3 @@ li, p {
 img {
     border-radius: 2%;
 }
-

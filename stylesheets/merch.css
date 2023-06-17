@@ -48,10 +48,14 @@ body {
     transition: 1.2s ease 0s;
 }
 
-div img {
-    margin-left: 2vw;
-    width: 19vw;
-    height: auto;
+.block1 img {
+        margin-left: 2vw;
+        width: 19vw;
+        height: auto;
+}
+
+.lastimg {
+    margin-right: 2vw;
 }
 
 h3 {

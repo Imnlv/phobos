@@ -7,6 +7,7 @@ $('.menu-btn').on('click', function(e) {
 
 const animItems = document.querySelectorAll('._anim-items');
 
+
 if (animItems.length > 0){
     window.addEventListener('scroll', animOnScroll);
     function animOnScroll(params) {
@@ -43,24 +44,76 @@ if (animItems.length > 0){
 }
 
 
-const rippleButton = document.querySelector(".ripple-button");
+// const rippleButton = document.querySelector(".ripple-button");
 
-function mousePositionToCustomProp(event, element) {
-  let posX = event.offsetX;
-  let posY = event.offsetY;
+// function mousePositionToCustomProp(event, element) {
+//   let posX = event.offsetX;
+//   let posY = event.offsetY;
 
-  element.style.setProperty("--x", posX + "px");
-  element.style.setProperty("--y", posY + "px");
+//   element.style.setProperty("--x", posX + "px");
+//   element.style.setProperty("--y", posY + "px");
+// }
+
+// rippleButton.addEventListener("click", (e) => {
+//   mousePositionToCustomProp(e, rippleButton);
+//   rippleButton.classList.add("pulse");
+//   rippleButton.addEventListener(
+//     "animationend",
+//     () => {
+//       rippleButton.classList.remove("pulse");
+//     },
+//     { once: true }
+//   );
+// });
+
+
+function toggle(element, className) {
+  let classes = element.classList;
+  classes.contains(className)
+    ? classes.remove(className)
+    : classes.add(className);
 }
 
-rippleButton.addEventListener("click", (e) => {
-  mousePositionToCustomProp(e, rippleButton);
-  rippleButton.classList.add("pulse");
-  rippleButton.addEventListener(
-    "animationend",
-    () => {
-      rippleButton.classList.remove("pulse");
-    },
-    { once: true }
-  );
+let leds = document.querySelectorAll(".led");
+
+leds.forEach((led) => {
+  led.addEventListener("click", (event) => {
+    let element = event.target;
+    toggle(element, "on");
+  });
 });
+
+
+const boxes = document.querySelectorAll('.box');
+window.addEventListener('scroll', checkBoxes)
+  checkBoxes()
+
+  function checkBoxes() {
+      const triggerBottom = window.innerHeight / 5 * 4
+      boxes.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top
+        if(boxTop < triggerBottom) {
+          box.classList.add('show')
+        } else{
+          box.classList.remove('show')
+        }
+      })
+  }
+
+
+
+$(document).ready(function() {
+  $(".btn").click(function() {
+    $(".info").slideToggle();
+  });
+
+  $(".btn2").click(function() {
+    $(".info2").slideToggle();
+  });
+
+  $(".btn3").click(function() {
+    $(".info3").slideToggle();
+  });
+});
+  
+

@@ -109,61 +109,81 @@ p, input, h5, .info, #phobosline {
     margin-left: 8.5vw;
 }
 
-.ripple-button {
-    place-items: center;
-    position: relative;
-    isolation: isolate;
-    appearance: none;
-    cursor: pointer;
+input[type="text"], input[type="email"] {
+    color: #ffe;
+    text-decoration: none;
+}
+
+.btn-go {
+    display: block;
+    box-sizing: border-box;
     width: 25vw;
     height: 3.5vw;
     border: 0.2vw solid #1ABD34;
     background-color: transparent;
     border-radius: 0.5vw;
-    display: block;
     margin: 5.2vw auto;
     cursor: pointer;
-    white-space: nowrap;
     transition: all 1s;
+    position: relative;
     overflow: hidden;
-}
   
-.ripple-button::before {
-    content: "";
-    position: absolute;
-    top: var(--y);
-    left: var(--x);
-    transform: translate(-50%, -50%) scale(0);
-    transition: transform 750ms;
-    z-index: -1;
-    width: 150%;
-    aspect-ratio: 1 / 1;
-    border-radius: 50%;
-    background: #1ABD34;
-    opacity: 0.5;
-}
-  
-.pulse::before {
-    animation: pulse 500ms;
-}
-  
-@keyframes pulse {
-    0% {
-      transform: translate(-50%, -50%) scale(0);
-      opacity: 0.5;
+    & span {
+      color: #ffffff;
+      font-family: 'TTCommons-Medium';
+      font-weight: 500;
+      font-size: 1vw;
     }
-    100% {
-      transform: translate(-50%, -50%) scale(1);
-      opacity: 0;
+  
+    &:before {
+      content: "";
+      height: 0;
+      aspect-ratio: 2;
+  
+      transform: translateX(-50%);
+      position: absolute;
+      top: -200%;
+      left: 50%;
+      background: #1ABD34;
+      border-radius: 50%;
+      transition: height 0.3s;
+    }
+    &:hover:before {
+      height: 500%;
+    }
+    & .text-container {
+      display: block;
+      position: relative;
+      overflow: hidden;
+    }
+    & .text {
+      display: block;
+      position: relative;
+      color: #ffffff;
+      font-family: 'TTCommons-Medium';
+      font-weight: 500;
+      font-size: 1vw;
+    }
+    &:hover .text {
+      animation: move-up-alternate 0.3s forwards;
+      will-change: transform;
+    }
+  
+    @keyframes move-up-alternate {
+      from {
+        transform: translateY(0%);
+      }
+      50% {
+        transform: translateY(80%);
+      }
+      51% {
+        transform: translateY(-80%);
+      }
+      100% {
+        transform: translateY(0%);
+      }
     }
 }
-  
-
-/* button:hover {
-    background-color: #1ABD34;
-    border: 0vw solid #1ABD34;
-    transform: scale(1.01);
-}  */
 
 h4 {
     color: #ffffff;

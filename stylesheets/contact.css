@@ -1,15 +1,16 @@
+
+p, h5, .info, #phobosline {
+    margin-left: 8.5vw;
+}
+
+
+
+/* PHOBOS | ссылки на соц сети */
+
 .social_media {
     margin-top: 2vw;
     display: block;
     text-align: center;
-}
-
-nav a {
-    color: white;
-    font-size: 1.2vw;
-    padding-left: 6.4vw;
-    font-family: 'TTCommons-Medium';
-    font-weight: 500;
 }
 
 nav {
@@ -19,6 +20,10 @@ nav {
 .soc_link {
     margin-left: 24.3vw;
 }
+
+
+
+/* местоположение | контакты */
 
 .contact {
     width: 70vw;
@@ -44,7 +49,6 @@ ul {
     margin-top: 1.7vw;
 }
 
-
 .al1 {
     margin-left: 4.6vw;
 }
@@ -53,6 +57,24 @@ ul {
     margin-left: 10.9vw;
 }
 
+/* местоположение | контакты | анимация js */
+
+._anim_show {
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.1s;
+}
+
+._anim_show._active,
+._active ._anim_show {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+/* форма */
+
 .forma {
     margin-top: 7vw;
     margin-left: 42vw;
@@ -60,18 +82,6 @@ ul {
     height: auto;
     border: 0.2vw solid #1ABD34;
     border-radius: 2%;
-}
-
-.line {
-    transform: translate(120%,0);
-    opacity: 0;
-    transition: 0.8s ease 0s;
-}
-
-.line._active {
-    transform: translate(0);
-    opacity: 1;
-    transition: 0.8s ease 0.4s;
 }
 
 h3 {
@@ -84,34 +94,52 @@ h3 {
     margin-top: 6vw;
 }
 
-input {
+.input-group {
+    position: relative;
+    display:block;
+    text-align:center;
+}
+   
+.input {
+    width: 20vw;
+    border: solid 0.11vw #1ABD34;
+    border-radius: 0.5vw;
+    background: none;
+    padding: 1.1vw;
+    margin-bottom: 4vw;
+    text-align: center;
+    font-size: 1vw;
+    color: #fff;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+}
+   
+.user-label {
+    font-family:'TTCommons-Regular';
+    font-size: 1vw;
+    position: absolute;
+    left: 12.3vw;
+    color: #e8e8e86f;
+    padding-top: 0.22vw;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+}
+   
+.input:focus, input:valid {
     outline: none;
-    background-color: transparent;
-    appearance: none;
+    border: 0.11vw solid #fff;
+}
+   
+.input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #000;
+    padding: 0 .2vw;
+    color: #fff;
 }
 
-input:active, input:hover, input:focus {
-    outline: 0;
-    outline-offset: 0;
-}
-
-.formhr {
-    width: 25vw;
-    border: 0.1vw solid #1ABD34;
-}
-
-p {
-    margin-top: 4vw;
-    margin-bottom: 0.3vw;
-}
-
-p, input, h5, .info, #phobosline {
-    margin-left: 8.5vw;
-}
-
-input[type="text"], input[type="email"] {
-    color: #ffe;
-    text-decoration: none;
+.aboutform {
+    margin-top: 6vw;
+    margin-bottom: -3vw;
 }
 
 .btn-go {
@@ -139,7 +167,6 @@ input[type="text"], input[type="email"] {
       content: "";
       height: 0;
       aspect-ratio: 2;
-  
       transform: translateX(-50%);
       position: absolute;
       top: -200%;
@@ -185,37 +212,26 @@ input[type="text"], input[type="email"] {
     }
 }
 
-h4 {
-    color: #ffffff;
-    font-family: 'TTCommons-Medium';
-    font-weight: 500;
-    font-size: 1vw;
-}
+/* форма | анимация js */
 
-input::placeholder {
-    color: rgb(255, 255, 255) 0.5;
-    font-family: 'TTCommons-Medium';
-    font-weight: 500;
-    font-size: 1vw;
-    outline: none;
-    appearance: none;
-
-}
-
-.lineabout {
-    margin-top: -7vw;
-}
-
-.lineabout {
-    transform: translate(-120%, 0);
+.line {
+    transform: translate(120%,0);
     opacity: 0;
     transition: 0.8s ease 0s;
 }
 
-.lineabout._active {
+.line._active {
     transform: translate(0);
     opacity: 1;
-    transition: 0.8s ease 1s;
+    transition: 0.8s ease 0.4s;
+}
+
+
+
+/* HELPRUN | посянение */
+
+.lineabout {
+    margin-top: -7vw;
 }
 
 .info {
@@ -240,20 +256,17 @@ h5 {
     color: #1ABD34;
     margin-bottom: 2.5vw;
 }
-   
-.colortext {
-    color: #1ABD34;
-}
 
+/* HELPRUN | посянение | анимация js*/
 
-._anim_show {
-    transform: translate(0, 120%);
+.lineabout {
+    transform: translate(-120%, 0);
     opacity: 0;
-    transition: all 0.8s ease 0.1s;
+    transition: 0.8s ease 0s;
 }
 
-._anim_show._active,
-._active ._anim_show {
-    transform: translate(0, 0);
+.lineabout._active {
+    transform: translate(0);
     opacity: 1;
+    transition: 0.8s ease 1s;
 }

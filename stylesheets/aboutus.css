@@ -1,0 +1,268 @@
+.block1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 6.8vw;
+}
+
+.block1_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.block1_1 {
+    transform: translate(120%,0);
+    opacity: 0;
+    transition: 0.8s ease 0s;
+}
+
+.block1_1._active {
+    transform: translate(0);
+    opacity: 1;
+    transition: 0.8s ease 0.4s;
+}
+
+.block1_0 {
+    transform: translate(-120%, 0);
+    opacity: 0;
+    transition: 0.8s ease 0s;
+}
+
+.block1_0._active {
+    transform: translate(0);
+    opacity: 1;
+    transition: 0.8s ease 0.4s;
+}
+
+
+h5 {
+    font-family: 'TTCommons-Regular';
+    font-size: 0.9vw;
+    line-height: 138.5%;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 5.6vw;
+}
+
+.h5_2 {
+    margin-left: 2vw;
+}
+
+.mainp {
+    text-align: right;
+}
+
+.aboutuspic1 {
+    width: 17vw;
+    height: auto;
+    margin-top: 2.5vw;
+    float: right;
+    transition: 0.4s ease;
+}
+
+.aboutuspic1:hover {
+    transform: scale(1.02);
+}
+
+.aboutuspic2 {
+    width: 38.6vw;
+    height: auto;
+    margin-left: 1.5vw;
+    transition: 0.4s ease;
+}
+
+.aboutuspic2:hover {
+    transform: scale(1.02);
+}
+
+.picandbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.btn-go {
+    display: block;
+    box-sizing: border-box;
+    width: 12vw;
+    height: 3vw;
+    border: 0.12vw solid #1ABD34;
+    background-color: transparent;
+    border-radius: 0.5vw;
+    margin-right: 6vw;
+    cursor: pointer;
+    transition: all 1s;
+    position: relative;
+    overflow: hidden;
+  
+    &
+    span {
+      color: #ffffff;
+    font-family: 'TTCommons-Medium';
+    font-weight: 500;
+    font-size: 1vw;
+    }
+}
+
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10.8vw;
+    margin-left: 1vw;
+}
+
+.block2_0 {
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: 0.8s ease 0s;
+}
+
+.block2_0._active {
+    transform: translate(0);
+    opacity: 1;
+    transition: 0.8s ease 0.4s;
+}
+
+#h6one {
+    margin-top: -1.3vw;
+    margin-left: 20vw;
+}
+
+#h6two {
+    margin-top: -1.3vw;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+}
+
+.grid {
+    width: 22.3vw;
+    height: 17vw;
+    border-radius: 3%;
+    border: 0.12vw solid #1ABD34;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: 0.6s ease;
+}
+
+.grid:hover {
+    background-color: #1ABD34;
+    transform: scale(1.02);
+}
+
+.colorgrid {
+    background-color: #1ABD34;
+}
+ 
+.title1, .text1 {
+    margin-left: 1.3vw;
+}
+
+.title1 {
+    margin-top: 1.3vw;
+}
+
+.text1 {
+    margin-bottom: 0.7vw;
+}
+
+
+
+.block3 {
+    display: flex;
+    margin-left: 13vw;
+    margin-top: 10.8vw;
+    width: 75.1vw;
+    height: 38vw;
+    border-radius: 1vw;
+    border: 0.12vw solid #1ABD34;
+}
+
+.h5_3 {
+    margin-top: 50px;
+}
+
+.merch {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: -6vw;
+    margin-bottom: 3.3vw;
+}
+
+.aboutuspic3 {
+    width: 32vw;
+    height: auto;
+    margin-left: 8vw;
+}
+
+.merchostphobos {
+    width: 6vw;
+    height: 31vw;
+    border-radius: 1vw;
+    border: 0.12vw solid #1ABD34;
+    margin-left: 1vw;
+    margin-bottom: 0.2vw;
+}
+
+.merch_end {
+    float: left;
+}
+
+.transformtext {
+    transform: rotate(90deg);
+    text-align: end;
+}
+
+
+.button {
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    display: block;
+    margin: 10vw auto;
+  }
+  
+
+  .button {
+    letter-spacing: 0.4vw;
+    text-decoration: none;
+    font-size: 10vw;
+    font-family: 'pp-telegraf-ultra';
+    font-weight: 800;
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 0.1vw rgba(255,255,255,0.6);
+  }
+
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: #1ABD34;
+    width: 0vw;
+    inset: 0;
+    border-right: 0.17vw solid #1ABD34;
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 0.1vw #1ABD34;
+  }
+
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 0.6vw #1ABD34);
+  }
+
+
+  ul {
+    margin-top: 1.7vw;
+}

@@ -2,7 +2,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .accessories {
     display: flex;
     justify-content: flex-start;
@@ -16,6 +15,9 @@ body {
     width: 0;
 } 
 
+.accessories::-moz-scrollbar {
+    width: 0;
+} 
 
 .number1 {
     transform: translate(-120%, 0);
@@ -49,9 +51,15 @@ body {
 }
 
 .block1 img {
-        margin-left: 2vw;
-        width: 19vw;
-        height: auto;
+    margin-left: 2vw;
+    width: 19vw;
+    height: auto;
+}
+
+.block2 img {
+    margin-left: 2vw;
+    width: 28vw;
+    height: auto;
 }
 
 .lastimg {
@@ -72,4 +80,90 @@ h6 {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 3vw;
+}
+
+
+/* ползунок для перелистывания */
+/* тк ползунок в браузерах отображается по разному. я добовляю доп стили для префиксов -webkit- и -moz-, чтобы он корректно отображался как на движке хромиум, так и в мозиле */
+
+.range {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 50vw;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10vw;
+}
+  
+input[type=range]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background: #1ABD34;
+    background: -moz-color(#1ABD34);
+    height: 0.12vw;
+}
+  
+input[type=range]:focus {
+    outline: none;
+}
+  
+input[type=range]::-moz-range-track {
+    -moz-appearance: none;
+    background: #1ABD34;
+    height: 0.12vw;
+}
+  
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 0.12vw solid;
+    border-radius: 50%;
+    height: 1.5vw;
+    width: 1.5vw;
+    max-width: 1.5vw;
+    position: relative;
+    bottom: 0.7vw;
+    background-color: #000;
+    cursor: -webkit-grab;
+    -webkit-transition: border 1000ms ease;
+    transition: border 1000ms ease;
+}
+  
+input[type=range]::-moz-range-thumb {
+    -webkit-appearance: none;
+    border: 0.12vw solid;
+    border-radius: 50%;
+    height: 1.5vw;
+    width: 1.5vw;
+    max-width: 1.5vw;
+    position: relative;
+    bottom: 0.7vw;
+    background-color: #000;
+    cursor: -moz-grab;
+    -moz-transition: border 1000ms ease;
+    transition: border 1000ms ease;
+}
+  
+.range.green::-webkit-slider-thumb {
+    border-color: #1ABD34;
+}
+  
+input[type=range]::-webkit-slider-thumb:active {
+    cursor: -webkit-grabbing;
+}
+  
+input[type=range]::-moz-range-thumb:active {
+    cursor: -moz-grabbing;
+}
+
+.end {
+    margin-bottom: 0;
+}
+
+nav {
+    margin-top: 0.4vw;
+}
+
+
+ul {
+    margin-top: 1.7vw;
 }

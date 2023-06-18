@@ -12,7 +12,7 @@
 <body>
   <div class="menu-block">
     <nav class="menu-nav">
-      <a href="#">о нас</a>
+      <a href="aboutus.html">о нас</a>
       <a href="phobosmerch.html">заказать</a>
       <a href="index.html"><span class="maincolor">контакты</span></a>
       <a href="phobosevent.html">мероприятия</a>
@@ -72,15 +72,24 @@
   <div class="forma">
     <form action="index.html" method="post">
       <h3>HELPRUN</h3>
-      <p>Имя</p>
-      <input type="text" name="" value="" placeholder="Иван Иванов">
-      <hr class="formhr">
-      <p>Элекронная почта</p>
-      <input type="email" name="" value="" placeholder="еxample@gmail.com">
-      <hr class="formhr">
-      <p>Беспокойство | Ваша проблема</p>
-      <input type="text" name="" value="" placeholder="Меня мучают кошмары....">
-      <hr class="formhr">
+
+      <div class="aboutform">
+        <div class="input-group">
+          <input required="" type="text" name="text" autocomplete="off" class="input">
+          <label class="user-label">Ваше Имя</label>
+        </div>
+  
+        <div class="input-group">
+          <input required="" type="email" name="text" autocomplete="off" class="input">
+          <label class="user-label">Email</label>
+        </div>
+  
+        <div class="input-group">
+          <input required="" type="text" name="text" autocomplete="off" class="input">
+          <label class="user-label">Беспокойство | Ваша проблема</label>
+        </div>
+      </div>
+
       <button class="btn-go">
         <span class="text-container">
           <span class="text">Отправить</span>

@@ -1,3 +1,6 @@
+
+/* 1 блок | phobos — laboratory of innovation */
+
 .block1 {
     display: flex;
     justify-content: center;
@@ -8,7 +11,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 
 .block1_1 {
     transform: translate(120%,0);
@@ -33,7 +35,6 @@
     opacity: 1;
     transition: 0.8s ease 0.4s;
 }
-
 
 h5 {
     font-family: 'TTCommons-Regular';
@@ -80,7 +81,6 @@ h5 {
     align-items: flex-end;
 }
 
-
 .btn-go {
     display: block;
     box-sizing: border-box;
@@ -104,6 +104,8 @@ h5 {
     }
 }
 
+
+/* 2 блок | особенности phobos — лаборатории борьбы со страхами */
 
 .block2 {
     display: flex;
@@ -174,6 +176,7 @@ h5 {
 }
 
 
+/* 3 блок | PHOBOS MERCH */
 
 .block3 {
     display: flex;
@@ -221,6 +224,8 @@ h5 {
     text-align: end;
 }
 
+
+/* 4 блок | PHOBOS ANIMATE */
 
 .button {
     height: auto;

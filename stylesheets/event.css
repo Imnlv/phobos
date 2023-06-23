@@ -2,6 +2,9 @@ body {
     overflow-x: hidden;
 }
 
+
+/* общие стили */
+
 .event {
     text-align: center;
     margin-top: 6.5vw;
@@ -23,26 +26,10 @@ body {
     transition: 0.8s ease 0s;
 }
 
-.event_1 {
-    margin-top: 4vw;
-    text-align: center;
-}
-
-.imgevent1 {
-    width: 70vw;
-    height: auto;
-    transition: 1s;
-}
-
 .data {
     color: #1ABD34;
     font-size: 1.5vw;
 }
-
-.eventname {
-    margin-left: 15vw;
-}
-
 
 p {
     font-family: 'TTCommons-Regular';
@@ -60,6 +47,10 @@ p {
 .p_end {
     text-align: right;
     margin-left: 0;
+}
+
+.eventname {
+    margin-left: 15vw;
 }
 
 .more {
@@ -96,6 +87,32 @@ ul {
     margin-top: 1.7vw;
 }
 
+.imgevent1:hover, .imgevent2_1:hover, .imgevent2_2:hover, .imgevent3_2:hover, .imgevent3_3:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.btn3 {
+    margin-left: 40vw;
+    margin-bottom: 0;
+}
+
+
+/* 1ое мероприятие */
+
+.event_1 {
+    margin-top: 4vw;
+    text-align: center;
+}
+
+.imgevent1 {
+    width: 70vw;
+    height: auto;
+    transition: 1s;
+}
+
+
+/* 2ое мероприятие */
 
 .event_2, .event_3{
     display: flex;
@@ -126,20 +143,12 @@ ul {
     margin-bottom: 0;
 }
 
-.imgevent1:hover, .imgevent2_1:hover, .imgevent2_2:hover, .imgevent3_2:hover, .imgevent3_3:hover {
-    transform: scale(1.02);
-    cursor: pointer;
-}
 
-.btn3 {
-    margin-left: 40vw;
-    margin-bottom: 0;
-}
+/* 3ее мероприятие */
 
 .name3, .data3, .p3 {
     text-align: right;
 }
-
 
 .imgevent3_3 {
     margin-left: 4.1vw;
@@ -157,6 +166,8 @@ ul {
 }
 
 
+/* анимация блоков мероприятий js */
+
 .box {
     transform: translate(120%);
     transition: transform 1.2s ease-in-out;
@@ -169,5 +180,3 @@ ul {
 .box.show {
     transform: translateX(0);
 }
-  
-  

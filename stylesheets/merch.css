@@ -2,6 +2,9 @@ body {
     overflow-x: hidden;
 }
 
+
+/* общий стиль для всех блоков */
+
 .accessories {
     display: flex;
     justify-content: flex-start;
@@ -19,6 +22,9 @@ body {
     width: 0;
 } 
 
+
+/* нумерация */
+
 .number1 {
     transform: translate(-120%, 0);
     opacity: 0;
@@ -30,6 +36,9 @@ body {
     opacity: 1;
     transition: 1.2s ease 0s;
 }
+
+
+/* блок с мерочом */
 
 .accessoriesmerch {
     margin-left: 3vw;
@@ -50,6 +59,9 @@ body {
     transition: 1.2s ease 0s;
 }
 
+
+/* блок с книгой */
+
 .block1 img {
     margin-left: 2vw;
     width: 19vw;
@@ -62,9 +74,30 @@ body {
     height: auto;
 }
 
+.block3 img {
+    margin-left: 2vw;
+    width: 19vw;
+    height: auto;
+}
+
+.bookpic2 {
+    margin-top: 2vw;
+}
+
+#bookpic4 {
+    width: 37vw;
+}
+
+#bookpic7 {
+    width: 37vw;
+}
+
 .lastimg {
     margin-right: 2vw;
 }
+
+
+/* общие стили */
 
 h3 {
     font-family: 'TTCommons-Medium';
@@ -80,6 +113,18 @@ h6 {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 3vw;
+}
+
+nav {
+    margin-top: 0.4vw;
+}
+
+ul {
+    margin-top: 1.7vw;
+}
+
+.end {
+    margin-bottom: 1vw;
 }
 
 
@@ -153,17 +198,4 @@ input[type=range]::-webkit-slider-thumb:active {
   
 input[type=range]::-moz-range-thumb:active {
     cursor: -moz-grabbing;
-}
-
-.end {
-    margin-bottom: 0;
-}
-
-nav {
-    margin-top: 0.4vw;
-}
-
-
-ul {
-    margin-top: 1.7vw;
 }

@@ -1,0 +1,53 @@
+body {
+    overflow: hidden;
+}
+
+.menu-block {
+    z-index: 100;
+}
+
+h1 {
+    font-size: 13vw;
+    margin-left: -38vw;
+    margin-top: 7vw;
+}
+
+.pic1 {
+    margin-left: 51vw;
+    margin-top: -31vw;
+    width: 42vw;
+    height: auto;
+    transform: rotate(-19deg);
+    z-index: -20;
+}
+
+.pic1 {
+    transform: translate(50%,0), rotate(-19deg);
+    opacity: 0;
+    transition: 0.2s ease 0.2s;
+}
+
+.pic1._active {
+    transform: translate(0), rotate(-19deg);
+    opacity: 1;
+    transition: 0.2s ease 0.2s;
+}
+
+p {
+    font-size: 1.5vw;
+    margin-top: 0vw;
+    margin-left: -36vw;
+    text-align: center;
+}
+
+._anim_show {
+    transform: translate(0, 50%);
+    opacity: 0;
+    transition: all 0.2s ease 0.2s;
+}
+
+._anim_show._active,
+._active ._anim_show {
+    transform: translate(0, 0);
+    opacity: 1;
+}

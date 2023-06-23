@@ -6,12 +6,13 @@ html::-webkit-scrollbar {
     width: 0;
 }
 
-
 body{
     background-color: black;
     overflow-y: scroll;
 }
   
+/* общее меню */
+
 .menu-btn {
     display: block;
     width: 3.3vw;
@@ -106,6 +107,9 @@ nav a {
     visibility: visible;
 }
 
+
+/* базовый текст */
+
 .phobos_menu {
     text-decoration: none;
     text-transform: uppercase;
@@ -118,7 +122,6 @@ nav a {
     margin-top: 2vw;
 }
 
-
 h1 {
     color: #1ABD34;
     text-transform: uppercase;
@@ -130,7 +133,6 @@ h1 {
     text-align: center;
 }
 
-
 h2 {
     color: #ffffff;
     font-size: 2.4vw;
@@ -138,7 +140,6 @@ h2 {
     font-weight: 400;
     margin-top: 1vw;
 }
-
 
 h6 {
     font-variant: all-small-caps;
@@ -159,6 +160,9 @@ li, p {
     line-height: 138.5%;
     padding-bottom: 0.8vw;
 }
+
+
+/* footer */
 
 .hrdone {
     border: 0.1vw solid #1ABD34;
@@ -191,7 +195,6 @@ li, p {
     margin-left: 39.5vw;
 }
 
-
 .colortext {
     color: #1ABD34;
     text-decoration-color: #1ABD34;
@@ -200,6 +203,9 @@ li, p {
 .maincolor {
     color: #ffffff;
 }
+
+
+/* картинки */
 
 img {
     border-radius: 2%;
